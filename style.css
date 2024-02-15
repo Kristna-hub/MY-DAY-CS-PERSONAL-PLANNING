@@ -1,0 +1,55 @@
+body {
+  font-family: english, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+#myDay {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #eeeded;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 54px;
+  margin-bottom: 30px;
+  color: rgba(45, 43, 43, 0.792);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0033b3;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task span {
+  font-size: 26px;
+}
+
+.motivation {
+  font-style: english;
+  color: #e71223;
+  margin-top: 20px;
+}
